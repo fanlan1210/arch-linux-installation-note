@@ -1,6 +1,6 @@
 # Arch Linux 安裝筆記：2021 版
 
-這本書延續我在 2017 年所寫下的 [Arch Linux 安裝指南](https://fanlan1210.gitbooks.io/arch-linux-installation-guide/content/)，因應自身需求改變，以及時代變遷而重寫所有內容，讓自己未來有需要時可以再回來參考。
+這本筆記延續我在 2017 年所寫下的 [Arch Linux 安裝指南](https://fanlan1210.gitbooks.io/arch-linux-installation-guide/content/)，因應自身需求改變，以及時代變遷而重寫所有內容，讓自己未來有需要時可以再回來參考。
 
 ## 硬體環境
 * 處理器

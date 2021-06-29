@@ -13,3 +13,6 @@
     - [安裝桌面環境](./desktop-environment/install.md)
     - [輸入法與字型](./desktop-environment/input-method-and-fonts.md)
 - [Step 5 指令終端設定]()
+
+---
+- [Powered by mdBook](https://rust-lang.github.io/mdBook/index.html)
