@@ -15,4 +15,4 @@
 - [Step 5 指令終端設定]()
 
 ---
-- [Powered by mdBook](https://rust-lang.github.io/mdBook/index.html)
+[Powered by mdBook]()
