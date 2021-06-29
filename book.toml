@@ -4,6 +4,7 @@ language = "zh-TW"
 multilingual = false
 src = "src"
 title = "Arch Linux Installation Note"
+description = "繁嵐的 Arch Linux 安裝筆記(2021 年版)"
 
 [output.html]
 no-section-label = true
