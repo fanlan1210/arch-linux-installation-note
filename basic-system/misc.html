@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">序</a></li><li class="chapter-item expanded "><a href="../prepare.html">Step 0 前置</a></li><li class="chapter-item expanded "><a href="../network-setting.html">Step 1 網路連線設定</a></li><li class="chapter-item expanded "><a href="../disk-partition.html">Step 2 磁碟分割</a></li><li class="chapter-item expanded "><a href="../basic-system/index.html">Step 3 基本系統安裝與設定</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic-system/mirrorlist.html">設定套件來源</a></li><li class="chapter-item expanded "><a href="../basic-system/install-linux.html">安裝系統本體</a></li><li class="chapter-item expanded "><a href="../basic-system/boot-loader.html">開機管理程式</a></li><li class="chapter-item expanded "><a href="../basic-system/misc.html" class="active">雜項</a></li></ol></li><li class="chapter-item expanded "><a href="../desktop-environment/index.html">Step 4 桌面環境設定</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../desktop-environment/install.html">安裝桌面環境</a></li><li class="chapter-item expanded "><a href="../desktop-environment/input-method-and-fonts.html">輸入法與字型</a></li></ol></li><li class="chapter-item expanded "><div>Step 5 指令終端設定</div></li></ol>            </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html">序</a></li><li class="chapter-item expanded "><a href="../prepare.html">Step 0 前置</a></li><li class="chapter-item expanded "><a href="../network-setting.html">Step 1 網路連線設定</a></li><li class="chapter-item expanded "><a href="../disk-partition.html">Step 2 磁碟分割</a></li><li class="chapter-item expanded "><a href="../basic-system/index.html">Step 3 基本系統安裝與設定</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../basic-system/mirrorlist.html">設定套件來源</a></li><li class="chapter-item expanded "><a href="../basic-system/install-linux.html">安裝系統本體</a></li><li class="chapter-item expanded "><a href="../basic-system/boot-loader.html">開機管理程式</a></li><li class="chapter-item expanded "><a href="../basic-system/misc.html" class="active">雜項</a></li></ol></li><li class="chapter-item expanded "><a href="../desktop-environment/index.html">Step 4 桌面環境設定</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../desktop-environment/install.html">安裝桌面環境</a></li><li class="chapter-item expanded "><a href="../desktop-environment/input-method-and-fonts.html">輸入法與字型</a></li></ol></li><li class="chapter-item expanded "><div>Step 5 指令終端設定</div></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../https://rust-lang.github.io/mdBook/index.html">Powered by mdBook</a></li></ol>            </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
 
@@ -148,6 +148,8 @@
 <pre><code>pacman -S iwd
 </code></pre>
 <h2 id="安裝-aur-helperyay"><a class="header" href="#安裝-aur-helperyay">安裝 AUR Helper：yay</a></h2>
+<p>AUR Helper 是泛指那些提供使用者可以簡單下載安裝 <a href="https://aur.archlinux.org">Arch User Repository</a> 上套件的輔助程式，而這裡使用 yay 這個套件。</p>
+<p>首先開啟 pacman 設定檔：</p>
 <pre><code>sudo vim /etc/pacman.conf
 </code></pre>
 <p>找到以下兩行(約在第93行)，將前方的 # 刪除：</p>
